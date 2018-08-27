@@ -1,7 +1,7 @@
 package co.com.scalatraining.modelling.dominio.entidades.entidades
 
 
-case class Board( matrix : List[List[Celda]])
+case class Board( matrix : List[Celda], width: Width, height: Height)
 case class Celda(abscisa: Abscisa, ordenada: Ordenada, valor: Valor, vista: Vista)
 sealed trait Dimension
 case class Width(n :Int) extends Dimension

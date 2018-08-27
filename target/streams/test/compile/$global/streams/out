@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Dairo Arley\Downloads\Minesweeper\src\test\scala\co\com\scalatraining\TestMinesweeper.scala:21:50: value insert is not a member of object co.com.scalatraining.modelling.dominio.entidades.servicios.InterpretacionServicioMinesweeper[0m
-[0m[[0m[31merror[0m] [0m[0m    val hola = InterpretacionServicioMinesweeper.insert(List('1','2','3'), 1, 8)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Dairo Arley\Downloads\Minesweeper\src\test\scala\co\com\scalatraining\TestMinesweeper.scala:22:93: ';' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(hola === Board( List(Celda(Abscisa(2),Ordenada(2),Valor('.'),Vista(false )))))   )[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                            ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
