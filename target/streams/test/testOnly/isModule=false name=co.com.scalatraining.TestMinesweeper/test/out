@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestMinesweeper:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Un Minesweeper se puede crear *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List((Abscisa(5),Ordenada(0)), (Abscisa(5),Ordenada(0))) did not equal List(List()) (TestMinesweeper.scala:12)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Random *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List((Abscisa(2),Ordenada(0)), (Abscisa(0),Ordenada(0))) did not equal 30 (TestMinesweeper.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Las cosas estan *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Board(List(List(Celda(Abscisa(0),Ordenada(0),Valor(.),Vista(false))), List(Celda(Abscisa(0),Ordenada(1),Valor(.),Vista(false))), List(Celda(Abscisa(1),Ordenada(0),Valor(.),Vista(false))), List(Celda(Abscisa(1),Ordenada(1),Valor(.),Vista(false))))) did not equal Board(List(List(Celda(Abscisa(0),Ordenada(0),Valor(.),Vista(false))), List(Celda(Abscisa(0),Ordenada(1),Valor(.),Vista(false))), List(Celda(Abscisa(0),Ordenada(2),Valor(.),Vista(false))), List(Celda(Abscisa(1),Ordenada(0),Valor(.),Vista(false))), List(Celda(Abscisa(1),Ordenada(1),Valor(.),Vista(false))), List(Celda(Abscisa(1),Ordenada(2),Valor(.),Vista(false))), List(Celda(Abscisa(2),Ordenada(0),Valor(.),Vista(false))), List(Celda(Abscisa(2),Ordenada(1),Valor(.),Vista(false))), List(Celda(Abscisa(2),Ordenada(2),Valor(.),Vista(false))))) (TestMinesweeper.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- nada normal *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(1, 2, 3) did not equal 10 (TestMinesweeper.scala:31)[0m[0m
