@@ -26,3 +26,4 @@ compile
 testOnly co.com.scalatraining.TestMinesweeper
 exit
 testOnly co.com.scalatraining.TestMinesweeper
+exit

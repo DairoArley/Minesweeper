@@ -8,6 +8,7 @@ sealed trait AlgebraServicioMinesweeper {
   def paresAleatorios(width: Width, height: Height, mines: Mines):List[Tuple2[Abscisa, Ordenada]]
   def insertarValores(list1: List[Celda], list2: List[Tuple2[Abscisa, Ordenada]]):List[Celda]
   def insertarCelda(celda: Celda, list: List[(Abscisa, Ordenada)]): Celda
+  def checkearCelda(board: Board, ordenada: Ordenada, abscisa: Abscisa):Board
 }
 
 sealed trait InterpretacionServicioMinesweeper extends AlgebraServicioMinesweeper{
@@ -23,7 +24,7 @@ sealed trait InterpretacionServicioMinesweeper extends AlgebraServicioMinesweepe
         if (x.ordenada.n == board.width.n-1){
           println(".")
         }else{
-          println(". ")
+          print(". ")
         }
       }
     } )
@@ -49,6 +50,22 @@ sealed trait InterpretacionServicioMinesweeper extends AlgebraServicioMinesweepe
       Celda(celda.abscisa, celda.ordenada, Valor(r.nextInt(9).toChar), Vista(false) )
     }else{ celda} )
     list.head
+  }
+
+  override def checkearCelda(board: Board, ordenada: Ordenada, abscisa: Abscisa): Board = {
+
+    val res = board.matrix.map(x => {if(x.abscisa.n == ordenada.n && x.ordenada.n == abscisa.n){
+      if (x.valor.value == '.'  ){
+        Celda(x.abscisa, x.ordenada, x.valor, Vista(true) )
+      }else if (x.valor.value == '*'){
+
+      }else if(x.valor.value == '-'){
+
+      }
+
+    }else x
+
+    } )
   }
 
   override def paresAleatorios(width: Width, height: Height, mines: Mines): List[(Abscisa, Ordenada)] = {

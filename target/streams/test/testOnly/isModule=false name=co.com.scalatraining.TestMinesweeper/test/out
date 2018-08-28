@@ -1,3 +1,2 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mTestMinesweeper:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- Las cosas estan *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  Board(List(Celda(Abscisa(0),Ordenada(0),Valor(.),Vista(false)), Celda(Abscisa(0),Ordenada(1),Valor(),Vista(false)), Celda(Abscisa(1),Ordenada(0),Valor(.),Vista(false)), Celda(Abscisa(1),Ordenada(1),Valor(.),Vista(false))),Width(2),Height(2)) did not equal Board(List(Celda(Abscisa(0),Ordenada(0),Valor(.),Vista(false)), Celda(Abscisa(0),Ordenada(1),Valor(.),Vista(false)), Celda(Abscisa(1),Ordenada(0),Valor(.),Vista(false)), Celda(Abscisa(1),Ordenada(1),Valor(.),Vista(false))),Width(2),Height(2)) (TestMinesweeper.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Las cosas estan[0m[0m
