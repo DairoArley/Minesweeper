@@ -1,2 +1,5 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mTestMinesweeper:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Las cosas estan[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Las cosas de la vida *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  '' did not equal '3' (TestMinesweeper.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- esta[0m[0m

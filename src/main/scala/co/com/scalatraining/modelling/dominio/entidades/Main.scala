@@ -2,7 +2,7 @@ package co.com.scalatraining.modelling.dominio.entidades
 
 import java.io.{BufferedReader, IOException, InputStreamReader}
 
-import co.com.scalatraining.modelling.dominio.entidades.entidades.{Height, Mines, Width}
+import co.com.scalatraining.modelling.dominio.entidades.entidades.{Abscisa, _}
 import co.com.scalatraining.modelling.dominio.entidades.servicios.InterpretacionServicioMinesweeper
 
 object Main extends App {
@@ -17,17 +17,28 @@ object Main extends App {
     print("Número de minas: ")
     val mines =scala.io.StdIn.readInt()
     print("\n")
-    val t = principal.construirBoard(Width(width), Height(height), Mines(mines))
+    var t = principal.construirMinesweeper(Width(width), Height(height), Mines(mines))
+    var minesweeper = t
   do{
-    principal.imprimirBoard(t)
-    print("Ingrese la celda que quiere seleccionar: ")
+    principal.imprimirMinesweeper(t)
+    println("Ingrese la celda y la acción que quiere realizar: ")
     print("Ingrese la coordenada en x: ")
     val x = scala.io.StdIn.readInt()
     print("Ingrese la coordenada en y: ")
     val y = scala.io.StdIn.readInt()
+    print("Ingrese la acción que desea realizar: ")
+    val accion = scala.io.StdIn.readLine()
+    minesweeper = principal.realizarAccion(minesweeper.board, Ordenada(y),Abscisa(x),Accion(accion), minesweeper.mines  )
 
 
-  }while()
+
+  }while(principal.juegoTerminado(minesweeper) && principal.juegoPerdido(minesweeper) )
+
+  if(principal.juegoTerminado(minesweeper)){
+    println("You win")
+  }else
+    println("You loose")
+  print("Fin del juego")
 }
 
 

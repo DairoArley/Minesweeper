@@ -1,4 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Dairo Arley\Downloads\Minesweeper\src\main\scala\co\com\scalatraining\modelling\dominio\entidades\servicios\servicioMinesweeper.scala:24:3: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Dairo Arley\Downloads\Minesweeper\src\main\scala\co\com\scalatraining\modelling\dominio\entidades\servicios\servicioMinesweeper.scala:143:3: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[co.com.scalatraining.modelling.dominio.entidades.entidades.Celda][0m
 [0m[[0m[31merror[0m] [0m[0m  }[0m
 [0m[[0m[31merror[0m] [0m[0m  ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
